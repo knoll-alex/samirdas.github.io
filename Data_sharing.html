@@ -40,56 +40,42 @@
 		  
 		  <!-- Any section element inside of this container is displayed as a slide -->
 		  <div class="slides">
-		    
-		    <!-- Data Sharing  -->
-		    <section>
-		      <section>
-			<h2>Data Sharing Initiatives</h2>
-			<table class="reveal">
-			  <tr>
-			    <td width="50%" style="vertical-align: middle">
-			      <p><font color='yellow'>Dr. William Feindel<br>Lecture Series</font></p>
-			      <p><small>May 16, 2016<br>
-				  Samir Das - Software Manager<br>
-			     McGill Centre for Integrative Neuroscience </small></p>
-			    <img src="images/Neuro.png"> 
-			    </td>
-			    <td>
-			      <img src="images/Feindel.png">			  
-			  </td></tr>
-			  <tr>
+	
+	<!-- MNI ecosystem menu/summary-->
+	<section>
 
-			    <td>
-			      <img src="images/MCIN.png">
-			    </td>
-			    <td>
-			      <img src="images/Ludmer.png">
-			    </td>
-			  </tr>
-			</table>
-		      </section>
-		      
-		      <section data-transition="convex">
-                        <img src="images/Spock.png">
-		      </section>
-		    </section>
+	  <section data-background="images/mni_eco_info_5.jpg" data-background-size="100%">
+	  </section>
 
-		    <!-- This talk - Disclaimer-->
-		    <section data-transition="zoom">
-		      <h2>Today's talk</h2>
-		      <p><font color="#FFFBB33">Disclaimer - MNI-centric solutions</font></p>
-		      <ol>
-			<li>Data Sharing: hurdles, issues, solutions...</li>
-			<li>Overview of data sharing initiatives</li>
-			<li>Examples of tools, datasets, and environments</li>
-			<li>LORIS and CBRAIN</li>
-			<li>Plans for Open Science at the MNI</li>
-		      </ol>
-		    </section>
-		 
-		    <!-- What is Data Sharing? -->
-		    <section data-background="images/Data_sharing_cartoon.png">
-		      <h2><font color="black">What is Data Sharing?</font></h2>
+      	  <!-- MNI PAPER -->	
+	  <section data-transition="fade">
+       	    <a href="https://www.researchgate.net/publication/281780543_The_MNI_data-sharing_and_processing_ecosystem" target="_blank"><img src="images/MNI_ecosystem_paper.png" width="90%"></a>
+	  </section>
+	
+	  <!-- WHAT'S INVOLVED? -->
+   	  <section id="fragments">
+            <h2><font color="12a3d8">What’s involved?</font></h2>
+            <p>
+              <span class="fragment">Longitudinal Acquisition, Storage and Curation, <font color="f27c30">Interoperability, Reproducibility</font>, Transfer, Anonymization, Security, Privacy, Ethics, APIs, Validation, Quality Control, Protocol Checking, Preprocessing, Analysis, HPC,</span>
+                          
+	      <span class="fragment">Provenance, Ontological Standarization,<br><font color="f27c30">Data Harmonization</font>, Upgrades, Maintenance, Bug Fixes, User Interface, Javascript, Bootstrap, Tracking, <font color="f27c30">Extensibility</font>, Data Management, Summary Statistics, Workflows,</span><br>
+	     
+	      <span class="fragment">Development, Tool Integration, <font color="f27c30">Data Sharing</font>, Download, Multi-Modal Linking, <font color="f27c30">Querying</font>, Image Processing, Visualization, Networking, System Administration, Partnerships, Funding, HR</span>
+                          
+	      <span class="fragment"><font color="f27c30">...No big deal!</font></span>
+            </p>
+          </section>
+	
+          <section>
+            <h2><font color="12a3d8">LORIS-CBRAIN INTEGRATION</font></h2>
+            <img src="images/Data_flow.jpg">
+          </section>	
+	
+	</section>
+ 
+	<!-- What is Data Sharing? -->
+	<section data-background="images/Data_sharing_cartoon.png" id="data-sharing-destination">
+	  <h2><font color="black">What is Data Sharing?</font></h2>
 		      <p class="fragment roll-in"><font color="purple">Exchange of information</font></p>
 		      <p class="fragment roll-in"><font color="black">Datasets</font></p>
 		      <p class="fragment roll-in"><font color="black">Tools</font></p>
@@ -207,11 +193,25 @@
 		   
 		      <section data-transition="convex">
 			<h2>Some Data Sharing solutions?</h2>
-			<!--<img src="images/Solutions.png">-->
+			<img src="images/Solutions.png">
 		      </section>
 		      
 		      <!-- External Initiatives  -->
 		      <section>
+
+		<section>
+                                    <h2><font color="blue">Global Data Sharing Initiatives</font></h2>
+                                    <p>
+                                    <p class="fragment roll-in">Public Data Repositories</p>
+                                    <p class="fragment roll-in">CBRAIN hooks</p>
+                                    <p class="fragment roll-in">BIDS</p>
+                                    <p class="fragment roll-in">NIDM</p>
+                                    <p class="fragment roll-in">Neurovault</p>
+                                    <p class="fragment roll-in">Braincode interoperability</p>
+                                    <p class="fragment roll-in">Interoperability with other competitors</p>
+                                    <p class="fragment roll-in">Best practices</p>
+
+                                  </section>
 		      <section data-transition="slide">
 			<h2>External Initiatives</h2>
 			<p>
@@ -262,26 +262,37 @@
 			<img src="images/INCF_picture.png">
                       </section>
 		      
-		      <!-- BIDS -->
-		      <section data-transition="fade">
-			<table class="reveal">
-			  <h2>BIDS</h2>
-			  <tr>
-			    <td width="75%" style="vertical-align: middle">
-			      <img src="images/BIDS.png">
-			    </td>
-			    <td width="25%" style="vertical-align: middle">
-			      <p>Common Ontology for Imaging Data</p>
-			    </td>
-			</tr></table>
-		      </section>
-		      
-		      <!-- NeuroImgaging Data Model (NiDM)-->
-		      <section data-transition="fade">
-			<h2>NeuroImaging Data Model</h2>
-			<img src="images/Nidm.png">
-			<p>Format for storing metadata, provenance, processing information</p>
-		      </section>
+
+			 <!-- BIDS -->
+                        <section data-transition="fade">
+                          <table class="reveal">
+                            <h2>BIDS</h2>
+                            <tr>
+                              <td width="75%" style="vertical-align: middle">
+                                <a href = "http://bids.neuroimaging.io/" data-preview-link><img src="images/BIDS.png"></a>
+                              </td>
+                              <td width="25%" style="vertical-align: middle">
+                                <p>Common Ontology for Imaging Data</p>
+                              </td>
+                          </tr>
+
+                        </table>
+                        </section>
+
+                        <!-- NeuroImgaging Data Model (NiDM)-->
+                        <section data-transition="fade">
+                          <h2>NeuroImaging Data Model</h2>
+                          <img src="images/Nidm.png">
+                          <p>Format for storing metadata, provenance, processing information</p>
+                        </section>
+
+
+                        <!--DataLad-->
+                        <section data-transition="fade">
+                          <h2>DataLad</h2>
+                          <img src="images/Datalad.png">
+                        </section>
+                      </section>
 		      
 		       <!-- Working group for atlas building template-->
 		       <section data-transition="fade">
@@ -536,15 +547,44 @@
 
 		    		    
 		    <!-- MNI ecosystem -->
-		    <section data-transition="fade">
+		<section>    
+		<section data-transition="fade">
 		      <img src="images/MNI_ecosystem_paper.png">
 		    </section>
 
 		    <section data-transition="fade">
 		      <h2>LORIS - CBRAIN Data Flow</h2>
-		      <img src="images/MNI_ecosystem.png">
+		      <img src="images/Data_flow.jpg">
 		    </section>
-		    
+		</section>
+		   
+
+		<!-- BIG DATA -->
+
+		<section>
+		<!-- Big Data Curve-->
+                    <section data-transition="zoom">
+                      <img src="images/Big_data.png">
+                    </section>
+
+                      <!-- Types of data-->
+                    <section data-transition="zoom">
+                      <img src="images/Neuroinformatics_scope.jpg">
+                    </section>
+
+                     <!-- Cross Modal Data-->
+                    <section data-transition="zoom">
+                      <img src="images/Cross_modal.png">
+                    </section>
+
+                     <!-- Big data projects-->
+                    <section data-transition="zoom">
+                      <img src="images/HBP.png">
+                    </section>
+
+		</section
+
+ 
 		    <!-- LORIS -->
 		    <section data-transition="fade">
 
@@ -565,6 +605,34 @@
 			<h1><font color ="blue">LORIS globally</font></h1>
 		      </section>
 		      
+		<!-- NIHPD -->
+                      <section data-transition="convex">
+                        <img src="images/NIHPD_logo.jpg">
+                        <table class="reveal">
+                          <tr>
+                            <td width="45%" style="vertical-align: middle">
+                              <img src="images/NIHPD_paper.png">
+                            </td>
+
+                            <td width="30%" style="vertical-align: middle">
+                              <img src="images/MRI_images_several.jpg">
+                            </td>
+                            <td width="30%" style="vertical-align: top">
+                              <ul><small>
+                                    <li>Cited 295 times</li>
+                                    <li>Control data for NDAR</li>
+                                    <li>Longitudinal study (8 years)</li>
+                                    <li>532 subjects</li>
+                                    <li>8000 distinct variables</li>
+                                    <li>37000 individual assessments</li>
+                                    <li>T1, T2, PD, DTI, Spectroscopy</li>
+                                    <li>∼3TB of imaging data</li>
+                                    <li>2000 MRI acquisitions</li>
+                                  </small></ul>
+                            </td>
+                        </tr></table>
+                      </section>
+
 		      <!-- IBIS -->
 		      <section data-transition="convex">
 			<img src="images/IBIS.png">
@@ -616,6 +684,20 @@
 			      </td>
 			</tr></table>
 		      </section>
+
+<!-- BigBrain example -->
+                      <section data-transition="fade">
+                        <table class="reveal">
+                          <h2>BigBrain</h2>
+                          <tr>
+                            <td width="50%" style="vertical-align: middle">
+                              <img src="images/BigBrain.png">
+                            </td>
+                            <td width="50%" style="vertical-align: middle">
+                              <img src="images/BigBrain_paper.png">
+                            </td>
+                        </tr></table>
+                      </section>
 		      
 		      <!-- OMEGA - small pilot, interest has spiked  -->
 		      <section data-transition="convex">
@@ -686,6 +768,23 @@
 		      <section>
                         <img src="images/CBRAIN_schema.png">
                       </section>
+
+ 			<section>
+                        <h2>CIVET for neonates</h2>
+                        <table class="reveal">
+                          <tr>
+                            <td width="70%" style="vertical-align: middle">
+                              <img src="images/CIVET_processing_steps.png">
+                            </td>
+                            <td>
+
+                                <img src="images/CIVET_cortical_thickness.png">
+
+                                <img src="images/CIVET.png">
+
+                            </td>
+                        </tr></table>
+                      </section>
 		    </section>
 		    
 		    <!-- MNI Open Science -->
@@ -701,8 +800,32 @@
 			      <img src="images/Open_science.png"> 
 			</td></tr></table>	
 		      </section>
-		      
-		      <section>
+
+
+
+<section>
+                        <img src="images/Open_science_paper.png">
+                      </section>
+
+                      <section>
+                        <h2>Cyberinfrastructure</h2>
+                        <img src="images/Cyberinfrastructure.png">
+                      </section>
+
+                       <section>
+                        <h2>Cybersecurity</h2>
+                        <img src="images/Cybersecurity.png">
+                      </section>
+
+                       <section>
+                         <img src="images/HBHL.png">
+                      </section>
+		</section>
+
+
+		      <!-- WHAT's IN IT FOR ME? -->
+		      <section data-transition="convex">
+			<section>
                         <h2>What's in it for me?</h2>
                         <p class="fragment roll-in">More citations <font size="4">(Piwowar & Vision, 2013)</font></p>
 			<p class="fragment roll-in">Access to larger datasets</p>
