@@ -70,13 +70,6 @@
 	
 	<!-- WHAT'S INVOLVED? -->
    	<section id="fragments">
-	  <section>
-	    <img src="images/Cuban_president.png">
-	  </section>
-	  
-	  <section>
-	    <img src="images/Trudeau.jpg" width="54%">
-	  </section>
 	  <h2><font color="12a3d8">What’s involved?</font></h2>
 	  <p>
 	    <span class="fragment">Longitudinal Acquisition, Storage and Curation, <font color="f27c30">Interoperability, Reproducibility</font>, Transfer, Anonymization, Security, Privacy, Ethics, APIs, Validation, Quality Control, Protocol Checking, Preprocessing, Analysis, HPC,</span>
@@ -267,7 +260,7 @@
 		</td>
 		<td width="25%" style="vertical-align: middle">
 		  <a href="https://academic.oup.com/gigascience/article/7/5/giy016/4951979"><img src="images/Boutiques_paper.png"></a>
-		  <a href="https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases/mni-305"><img src="images/Atlases.png"></a>
+		  <a href="https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases/mni-305"><img src="images/Atlases.png">
 		  
 		</td>
 	      </tr>
@@ -311,26 +304,27 @@
 	  <!-- Git and Github -->
 	  <section data-transition="fade">
 	    <table class="reveal">
-	      <h2>Git and Github</h2>
+	      <h2>Git & Github</h2>
 	      <tr>
 		<td width="50%" style="vertical-align: middle">
-		  <a href="https://git-scm.com"><img src="images/git.png"></a>
+		  <a href="https://git-scm.com/"><img src="images/git.png"></a>
 		</td>
 		<td width="50%" style="vertical-align: middle">
-		  <a href="https://github.com"><img src="images/Github.png"></a>
+		 <a href="https://github.com/"><img src="images/Github.png"></a>
 		</td>
 	    </tr></table>
 	  </section>
 	  
 	  <!-- Git Annex -->
 	  <section data-transition="fade">
-	    <a href="https://git-annex.branchable.com/"><img src="images/Git_annex.png"></a>
+	   <a href="https://git-annex.branchable.com/"><img src="images/Git_annex.png"></a>
 	  </section>
 
 	  <!-- Git Annex -->
 	  <section data-transition="fade">
 	   <a href="https://www.datalad.org/"><img src="images/Datalad.png"></a>
 	  </section>
+	</section>
 
 
 	 <!-- Other considerations -->
@@ -355,7 +349,7 @@
 	      <table class="reveal">
 		<tr>
 		  <td width="40%" style="vertical-align: middle">
-		   <a href="https://www.michaelzimmer.org/2016/05/14/okcupid-study-reveals-the-perils-of-big-data-science/"><img src="images/Data_breach_title.png"> 
+		    <a href="https://www.wired.com/2016/05/okcupid-study-reveals-perils-big-data-science/"><img src="images/Data_breach_title.png">
 		    <img src="images/Data_breach_consent.png">
 		    <img src="images/Data_breach.png"></a>
 		    
@@ -375,18 +369,18 @@
 	      <h2><a href="">Hackathons</a></h2>
 	      <tr>
 		<td width="75%" style="vertical-align: middle">
-		  <img src="images/C-BASE.png">
+		  <a href="http://www.digitalinberlin.de/c-base/"><img src="images/C-BASE.png"></a>
 		</td>
 		<td width="25%" style="vertical-align: middle">
 		  <p> Important value of hackathons to data sharing initiatives</p>
-		  <a href="http://www.brainhack.org"><img src="images/Brainhack.png">
+		  <a href="http://www.brainhack.org"><img src="images/Brainhack.png"></a>
 		</td>
 	    </tr></table>
 	  </section>
 	  
 	  <!-- Our implementation -->
 	  <section>
-	    <section data-background="images/mni_eco_info_5.jpg" data-background-size="100%">
+	    <a href="https://samirdas.github.io/MNI_ecosystem.html#/"><img src="images/mni_eco_info_5.jpg" data-background-size="100%"></a>
 	    </section>
 	    
 	    <!-- MNI PAPER -->	
@@ -404,7 +398,7 @@
 		    <p><small> “LORIS is a modular and <font color="f27c30">extensible</font> web-based data management system that integrates all aspects of a <font color="f27c30">multi-center</font> study: from <font color="f27c30">heterogeneous data acquisition</font> (imaging, clinical, behavior, genetics) to storage, <font color="f27c30">processing</font> and ultimately <font color="f27c30">dissemination</font>.”</small></p>
 		  </td>
 		  <td>
-		    <img src="images/LORIS_paper.png"> 
+		    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3262165/"><img src="images/LORIS_paper.png"></a>
 	      </td></tr></table>
 	    </section>
 	    
@@ -413,7 +407,7 @@
               <table class="reveal">
 		<tr>
 		  <td width="60%" style="vertical-align: middle">
-                    <img src="images/Dashboard.png">
+                    <a href="http://demo.loris.ca/"><img src="images/Dashboard.png"></a>
                     <img src="images/Imaging_scans.png">
 		  </td>
 		  
@@ -497,7 +491,7 @@
 	    
 	    <!-- TOSI projects -->
 	    <section>
-	      <img src="images/Tosi_Dataset.png" width="76%">
+	      a href="https://www.mcgill.ca/neuro/open-science"><img src="images/Tosi_Dataset.png" width="76%"></a>
 	    </section>
 	    
 	    <!-- TOSI structure -->
@@ -532,7 +526,7 @@
 		<h2>CCNA</h2>
 		<tr>
 		  <td width="70%" style="vertical-align: top">
-		    <img src="images/CCNA.png">
+		    <a href="http://ccna-ccnv.ca/"><img src="images/CCNA.png"></a>
 		  </td>
 		  <td width="30%" style="vertical-align: top">
 		    <p><small>
@@ -556,7 +550,7 @@
 	    
 	    <!-- QPN -->
 	    <section data-transition="fade">
-	      <img src="images/QPN.png" width="110%">
+	      <a href="http://rpq-qpn.ca/en/"><img src="images/QPN.png" width="110%"></a>
 	    </section>
 	    
 	    <!-- PreventAD -->
@@ -566,7 +560,7 @@
 
 	  <!-- Cuban Brain Mapping -->
 	  <section data-transition="convex">
-	    <a href="" target="_blank"><img src="images/Cuban_brain_mapping.png" width="120%"></a>
+	    <a href="https://journals.sagepub.com/doi/abs/10.1177/155005941104200303?rfr_dat=cr_pub%3Dpubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&journalCode=eegb"><img src="images/Cuban_brain_mapping.png" width="120%"></a>
 	  </section>
 	    <!-- ABIDE -->
 	    <section data-transition="fade">
@@ -574,10 +568,10 @@
 		<h2>ABIDE</h2>
 	      <tr>
 		<td width="45%" style="vertical-align: middle">
-		  <img src="images/ABIDE_paper.png">
+		  <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4162310/"><img src="images/ABIDE_paper.png"></a>
 		</td>
 		<td width="55%" style="vertical-align: middle">
-		  <img src="images/ABIDE_preprocessed.png">
+		  <a href="http://preprocessed-connectomes-project.org/abide/"><img src="images/ABIDE_preprocessed.png"></a>
 		</td>
 	    </tr></table>
 	    </section>
